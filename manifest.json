@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "gopher-wex-extension",
+  "version": "1.0",
+
+  "description": "Makes gopher sites browseable",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "protocol_handlers": [
+    {
+      "protocol": "gopher",
+      "name": "Gopher Extension",
+      "uriTemplate": "http://nakedmolerat.party/%s"
+    }
+  ]
+}

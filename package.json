@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/naked-mole-rat/gopher-webextension/issues"
   },
-  "homepage": "https://github.com/naked-mole-rat/gopher-webextension#readme"
+  "homepage": "https://github.com/naked-mole-rat/gopher-webextension#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
 }
